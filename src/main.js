@@ -6,9 +6,9 @@ $(document).ready(function() {
     event.preventDefault();
     var inputtedTitle = $("#title").val();
     var inputtedBody = $("#body").val();
-    console.log(inputtedBody);
-    var newEntry = new Entry(inputtedTitle, inputtedBody)
+    var newEntry = new Entry(inputtedTitle, inputtedBody);
     $(".wordCount").text(newEntry.wordCount());
-
+    $(".vowelCount").text(newEntry.vowelCount());
+    $(".consonantCount").text(newEntry.consonantCount());
   });
 });

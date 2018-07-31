@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <title>Journal</title>
+  </head>
+  <body>
+    <form id="journal-entry">
+      <label for="title">Enter a title:</label><br>
+      <input type="text" id="title"><br><br>
+
+      <label for="body">Journal entry</label>
+      <textarea class="form-control" id="body" rows="3"></textarea>
+
+      <button type="submit" name="button">Go!</button>
+    </form>
+
+
+    <p>number of words: <span class="wordCount"></span></p>
+    <p>number of vowels: <span class="vowelCount"></span></p>
+    <p>number of consonants: <span class="consonantCount"></span></p>
+
+  </body>
+</html>
